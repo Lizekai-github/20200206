@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>块级元素和行元素</title>
+		<style type="text/css">
+			img{
+				width: 100px;
+				
+				display:block;
+			}
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: #800080;
+				border: 1px solid #FF0000;
+				display: inline-block;
+				
+			}
+			.first{
+				
+				background-color: #ff55ff;				
+			}
+			.sec{
+				
+				background-color: #ff5500;
+				
+			}
+			
+			/*
+			行内元素不可以包含块级元素
+			行内元素不可以对设置宽高
+			可以通过：display:block ;  display: inline-block;转化
+			*/
+			a{
+				
+				width: 250px;
+				height: 60px;
+				border: 1px solid #000000;
+				display: block;
+			}
+			div.d1{
+				display: block;
+			}
+			div.d2{
+				
+				display:inline-block;
+			}
+			b{
+				display: block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<img src="../../img/img/bdicon.svg"  >
+		<div class="first">
+			
+		</div>
+		<div class="sec">
+			
+		</div class="thr">
+		<a class="d1">百度一下地方就是考虑到房价是看附件</a>
+		<a class="d2">购物商城</a>
+		<b>hellword</b>
+		
+			
+		</div>
+	</body>
+</html>

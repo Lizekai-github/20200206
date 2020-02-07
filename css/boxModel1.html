@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>边距合并</title>
+		<style type="text/css">
+			/*本来是20px+30px = 50px 可是会有边距合并问题，解决方法：display：*/
+			div{
+				width: 200px;
+				height: 200px;
+				background-color: #FF0000;
+				color: white;
+				}
+			/*子选择器*/
+			div:first-child{
+				background-color: #800080;
+				margin-bottom: 20px;
+			}
+			div:nth-child(2){
+				margin-top: 30px;
+				display: inline-block;
+				/*float: left;*/
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div >
+			1
+		</div>
+		<div >
+			2
+		</div>
+	</body>
+</html>

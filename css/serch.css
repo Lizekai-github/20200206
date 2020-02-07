@@ -1,0 +1,26 @@
+#serch{
+	width: ;
+	height: 293px;
+	background-color: #F5F5F5;
+}
+#logo{
+	text-align: center;
+}
+#logo img{
+	width: 270px;
+	height: 129px;
+}
+#serchFrame{
+	text-align: center;
+}
+#serchFrame input{
+	background-image: url(../img/img/bdicon.svg);
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 536px;
+	height: 40px;
+}
+#serchFrame button{
+	width: ;
+}
